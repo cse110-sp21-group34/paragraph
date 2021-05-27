@@ -35,6 +35,15 @@ class Paragraph {
   }
 
   /**
+   * Allow to press Enter inside the Alert block
+   * @public
+   * @returns {boolean}
+   */
+   static get enableLineBreaks() {
+    return true;
+  }
+  
+  /**
    * Render plugin`s main Element and fill it with saved data
    *
    * @param {object} params - constructor params
